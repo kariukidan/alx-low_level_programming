@@ -2,8 +2,9 @@
 
 /**
  * print_sign - prints the sign of a number
+ *@n : number to check
  *
- * Returns: 1 if number is positive 0 if equal to zero
+ * Returns: 1 if number is positive, 0 if equal to zero
  * and -1 if negative
  */
 int print_sign(int n)
