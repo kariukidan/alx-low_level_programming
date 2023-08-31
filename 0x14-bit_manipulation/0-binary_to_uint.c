@@ -19,7 +19,7 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 	}
 
-	for (base = 1, total = 0, len--; len >= 0; len--, base *= 2)
+	for (base = 1, cn = 0, len--; len >= 0; len--, base *= 2)
 	{
 		if (b[len] == '1')
 			cn += base;
