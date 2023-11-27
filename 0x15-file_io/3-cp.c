@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * error_file - Checks if files can be opened.
- * @file_from: File descriptor of the source file.
- * @file_to: File descriptor of the destination file.
+ * error_file - Checks if files can be opened
+ * @file_from: File descriptor of the source file
+ * @file_to: File descriptor of the destination file
  * @argv: Arguments vector.
  * Return: No return value.
  */
